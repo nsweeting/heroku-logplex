@@ -16,7 +16,8 @@ How to Use
 - Set up a new dyno for Heroku-Logplex.
 - Set up a new redis server for Heroku-Logplex. Heroku provides a free tier that is more than suitable.
 - You will be using HTTPS drains, so you will need to set up username and password. The username and password for Heroku-Logplex should be set in the config.ru file (though it should be set with environment variables).
-- Set up the log drain service using your new dyno address, as well as the username and password. You will recieve a logplex drain token. Set the drain token as an environment variable (LOGPLEX_DRAIN_TOKEN) on your new dyno.
+- Set up the log drain service using your new dyno address, as well as the username and password. The address should look like https://user:pass@mylogdrainaddress.herokuapp.com/logger (make sure to add /logger).
+- You will recieve a logplex drain token. Set the drain token as an environment variable (LOGPLEX_DRAIN_TOKEN) on your new dyno.
 - Configure which services you want to monitor via conifg/application.yml
 
 How it works
