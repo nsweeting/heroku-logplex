@@ -1,0 +1,11 @@
+name: Website
+services:
+  service_1:
+    type: 'web'
+    name: Web Server
+  service_2:
+    type: 'worker'
+    name: Ops Server
+  service_3:
+    type: 'postgres'
+    name: Database
