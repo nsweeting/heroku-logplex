@@ -1,7 +1,7 @@
 Heroku-Logplex
 ========
 
-Heroku-Logplex lets you monitor your heroku dynos and databases using its log drain service.
+Heroku-Logplex lets you monitor your heroku dynos and databases using its log drain service. It takes these results and reports them in a very simple status page.
 
 It does this through a very thin setup of rack + redis.
 
