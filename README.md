@@ -1,6 +1,8 @@
 Heroku-Logplex
 ========
 
+[![Code Climate](https://codeclimate.com/github/nsweeting/heroku-logplex/badges/gpa.svg)](https://codeclimate.com/github/nsweeting/heroku-logplex)
+
 Heroku-Logplex lets you monitor your heroku dynos and databases using its log drain service. It takes these results and reports them in a very simple status page.
 
 It does this through a thin setup of rack + redis.
